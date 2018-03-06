@@ -1,0 +1,6 @@
+PORTS = \
+  --publish 9093:9093 \
+  --publish 6783:6783 \
+
+VOLUMES = \
+  --volume /tmp/alertmanager:/alertmanager
